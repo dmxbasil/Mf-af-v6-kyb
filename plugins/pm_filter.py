@@ -519,12 +519,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('• ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ •', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('• ꜱᴇᴀʀᴄʜ •', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('• ᴜᴩᴅᴀᴛᴇꜱ •', url='https://t.me/+vTXulTvhb-YxOTg9')
+            InlineKeyboardButton('• ᴜᴩᴅᴀᴛᴇꜱ •', url='https://t.me/+qVX6Tbg5xWs1YmM1')
         ], [
             InlineKeyboardButton('• ʜᴇʟᴩ •', callback_data='help'),
             InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
         ],[
-            InlineKeyboardButton('• ᴀꜱᴋ ᴍᴏᴠɪᴇꜱ ʜᴇʀᴇ •', url='https://t.me/dmx_chating')
+            InlineKeyboardButton('• ᴀꜱᴋ ᴍᴏᴠɪᴇꜱ ʜᴇʀᴇ •', url='https://t.me/+gkNIhOs1MUY2MTJl')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -552,7 +552,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('• ᴜᴩᴅᴀᴛᴇ •', url='https://t.me/+vTXulTvhb-YxOTg9'),
+            InlineKeyboardButton('• ᴜᴩᴅᴀᴛᴇ •', url='https://t.me/+qVX6Tbg5xWs1YmM1'),
             InlineKeyboardButton('• ꜱᴏᴜʀᴄᴇ •', callback_data='source')
         ], [
             InlineKeyboardButton('• ʜᴏᴍᴇ •', callback_data='start'),
