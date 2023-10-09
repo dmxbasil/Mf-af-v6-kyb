@@ -17,7 +17,7 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 Here is the help for my COMMANDS."""
     ABOUT_TXT = """✯ ᴍy ɴᴀᴍᴇ: {}
-✯ ᴏɴᴡᴇʀ: <a href=https://t.me/basildmx>ʙᴀꜱɪʟ ᴅᴍx</a>
+✯ ᴏɴᴡᴇʀ: <a href=https://t.me/Movie_Flix_Tm>Movie Movie</a>
 ✯ ʟɪʙʀᴀʀy: ᴩyʀᴏɢʀᴀᴍ
 ✯ ʟᴀɴɢᴜᴀɢᴇ: ᴩyᴛʜᴏɴ 𝟹.10.08
 ✯ ᴅᴀᴛᴀ ʙᴀꜱᴇ: ᴍᴏɴɢᴏ ᴅʙ
@@ -30,10 +30,10 @@ Here is the help for my COMMANDS."""
 - ꜰᴏʀ ᴍᴏʀᴇ ᴜᴩᴅᴀᴛᴇꜱ - <a href=https://t.me/dmx_chating>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 
 <b>DEVS:</b>
-- <a href=https://t.me/basildmx>ʙᴀꜱɪʟ ᴅᴍx</a>"""
+- <a href=https://t.me/Movie_Flix_Tm>Movie Movie</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and LazyPriness will respond whenever that keyword hits the message
+- Filter is the feature were users can set automated replies for a particular keyword and 🚀ᴍᴏᴠɪᴇ ʙᴏᴛ🚀 will respond whenever that keyword hits the message
 
 <b>NOTE:</b>
 1. BOT should have admin privillage.
@@ -82,7 +82,7 @@ Here is the help for my COMMANDS."""
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of ᴛᴏᴍ ᴄʀᴜɪꜱᴇ
+these are the extra features of 🚀ᴍᴏᴠɪᴇ ʙᴏᴛ🚀
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specified user.</code>
