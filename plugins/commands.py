@@ -70,13 +70,7 @@ async def start(client, message):
                 InlineKeyboardButton(
                     "• ᴊᴏɪɴ ᴜᴩᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url=invite_link.invite_link
                 )
-            ],
-             [
-                InlineKeyboardButton(
-                   "• ᴍᴀɪɴ ɢʀᴏᴜᴩ •", url='https://t.me/+gkNIhOs1MUY2MTJl'
-                )
-            ]
-        ]
+            ]]
 
         if message.command[1] != "• ᴊᴏɪɴ ʜᴇʀᴇ •":
             try:
