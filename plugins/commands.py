@@ -45,14 +45,12 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('• ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ •', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('• ꜱᴇᴀʀᴄʜ •', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('• ᴜᴩᴅᴀᴛᴇꜱ •', url='https://t.me/+qVX6Tbg5xWs1YmM1')
+            InlineKeyboardButton('• ᴜᴩᴅᴀᴛᴇꜱ •', url='https://t.me/+qVX6Tbg5xWs1YmM1'),
+            InlineKeyboardButton('• ɢʀᴏᴜᴩ •', url='https://t.me/+gkNIhOs1MUY2MTJl')
             ],[
             InlineKeyboardButton('• ʜᴇʟᴩ •', callback_data='help'),
             InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
-            ],[
-            InlineKeyboardButton('• ᴀꜱᴋ ᴍᴏᴠɪᴇꜱ ʜᴇʀᴇ •', url='https://t.me/+gkNIhOs1MUY2MTJl')
-            ]]
+        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -98,13 +96,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('• ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ •', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('• ꜱᴇᴀʀᴄʜ •', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('• ᴜᴩᴅᴀᴛᴇꜱ •', url='https://t.me/+qVX6Tbg5xWs1YmM1')
+            InlineKeyboardButton('• ᴜᴩᴅᴀᴛᴇꜱ •', url='https://t.me/+qVX6Tbg5xWs1YmM1'),
+            InlineKeyboardButton('• ɢʀᴏᴜᴩ •', url='https://t.me/+gkNIhOs1MUY2MTJl')
             ],[
             InlineKeyboardButton('• ʜᴇʟᴩ •', callback_data='help'),
             InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
-        ],[
-            InlineKeyboardButton('• ᴀꜱᴋ ᴍᴏᴠɪᴇꜱ ʜᴇʀᴇ •', url='https://t.me/+gkNIhOs1MUY2MTJl')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
