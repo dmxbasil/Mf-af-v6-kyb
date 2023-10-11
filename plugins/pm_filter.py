@@ -849,6 +849,8 @@ async def auto_filter(client, msg, spoll=False):
         if 2 < len(message.text) < 100:
             search = message.text
             files, offset, total_results = await get_search_results(search.lower(), offset=0, filter=True)
+		if not files:
+                await client.send_message(req_channel,f"•")]]))
                 l = await message.reply_text(text=f"Check Your spelling",)                                                                                      
                 await asyncio.sleep(60)
                 await l.delete()    
