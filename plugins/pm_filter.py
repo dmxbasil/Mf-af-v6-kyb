@@ -852,7 +852,9 @@ async def auto_filter(client, msg, spoll=False):
             if not files:
                 await client.send_message(req_channel,f"• #REQUESTED_CONTENT •\n\n📝**Content Name** :`{search}`\n**Requested By**: {message.from_user.first_name}\n **USER ID**:{message.from_user.id}\n\n🗃️",
                                                                                                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔺 Mark as Done 🔺", callback_data="close_data")]]))
-                l = await message.reply_text(text=f"ʙʀᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ꜱᴩᴇʟʟɪɴɢ ᴀɴᴅ ᴍᴀᴋᴇ ꜱᴜʀᴇ ᴛʜᴀᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ᴡᴀꜱ ʀᴇʟᴇᴀꜱᴇᴅꜱ ᴏᴛᴛ || ᴀɴᴅ ᴛʀʏ ᴛᴏ ᴀꜱᴋ ᴡɪᴛʜ ʏᴇᴀʀ ᴀʟꜱᴏ",)
+                l = await message.reply_text(text=f"I couldn't find anything related to that Did you mean any one of these?
+
+നിങ്ങൾ ഉദ്ദേശിച്ച മൂവി താഴെ കാണുന്ന വല്ലതും ആണ് എങ്കിൽ.അതിൽ ക്ലിക്ക് ചെയ്യുക",)
                                                                                                        
                 await asyncio.sleep(60)
                 await l.delete()    
