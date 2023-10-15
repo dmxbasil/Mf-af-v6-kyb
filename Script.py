@@ -27,7 +27,7 @@ Here is the help for my COMMANDS."""
 ✯ ꜱᴏᴜʀᴄᴇ : ᴩʀɪᴠᴀᴛᴇ ᴄᴏᴅᴇ"""
     SOURCE_TXT = """<b>NOTE:</b>
 - ᴛᴏᴍ ᴄʀᴜɪꜱᴇ ɪꜱ ᴀ ᴩʀɪᴠᴀᴛᴇ ᴄᴏᴅᴇ
-- ꜰᴏʀ ᴍᴏʀᴇ ᴜᴩᴅᴀᴛᴇꜱ - <a href=https://t.me/dmx_chating>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+- ꜰᴏʀ ᴍᴏʀᴇ ᴜᴩᴅᴀᴛᴇꜱ - <a href=https://t.me/+xRGPJsC0jAA1NTA1>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 
 <b>DEVS:</b>
 - <a href=https://t.me/Movie_Flix_Tm>Movie Movie</a>"""
